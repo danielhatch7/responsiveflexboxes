@@ -151,7 +151,7 @@ main {
 }
 
 figure {
-  margin: 4rem 0;
+  margin: 0;
 }
 
 aside {
@@ -466,6 +466,10 @@ figcaption {
 
 @media (max-width: 500px) {
   .page-links {
+    display: none;
+  }
+
+  .space-filler {
     display: none;
   }
 }
